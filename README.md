@@ -56,6 +56,27 @@ The analysis highlighted differences in cancellation and completion performance 
 
 These are exploratory findings, not proof of causation. Further investigation is needed before implementing operational changes.
 
+## Visual Analysis
+
+### 1. Ride Completion Rate by Location
+
+Compares the completion rates of priority pickup locations against the platform average.
+
+![Ride completion rate by location](images/completion_rate_by_location.png)
+
+### 2. Driver Cancellation Reasons
+
+Shows the distribution of recorded reasons for driver cancellations across the dataset.
+
+![Driver cancellation reasons](images/driver_cancellation_reasons.png)
+
+### 3. Driver Cancellation by Location and Vehicle
+
+Highlights selected location–vehicle combinations with elevated driver-cancellation rates. The booking counts provide context for interpreting each rate.
+
+![Driver cancellation rate by location and vehicle](images/location_vehicle_cancellation_rates.png)
+
+
 ## Setup Instructions
 
 ### 1. Install Python
